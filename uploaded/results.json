@@ -1,0 +1,303 @@
+{
+  "suites": {
+    "title": "root",
+    "fullTitle": "root",
+    "suites": [
+      {
+        "title": "test the text() methods on AST nodes",
+        "fullTitle": "test the text() methods on AST nodes",
+        "suites": [],
+        "tests": [
+          {
+            "title": "calling text() on assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on nested assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on nested assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on sequence of assignments",
+            "fullTitle": "test the text() methods on AST nodes calling text() on sequence of assignments",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two numeric args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two numeric args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two string args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two string args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two mixed args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on a statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on a statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on another statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on another statement sequence",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 8,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitorTests",
+        "fullTitle": "CountVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 1,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitor Assignmnet Tests",
+        "fullTitle": "CountVisitor Assignmnet Tests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a AST containing Assignmnets with literal Expressions",
+            "fullTitle": "CountVisitor Assignmnet Tests count nodes in a AST containing Assignmnets with literal Expressions",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing Assignmnets with Numeric Plus Expressions",
+            "fullTitle": "CountVisitor Assignmnet Tests count nodes in a AST containing Assignmnets with Numeric Plus Expressions",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing Assignmnets with String Plus Expressions",
+            "fullTitle": "CountVisitor Assignmnet Tests count nodes in a AST containing Assignmnets with String Plus Expressions",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing Assignmnets with Var Expressions",
+            "fullTitle": "CountVisitor Assignmnet Tests count nodes in a AST containing Assignmnets with Var Expressions",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 4,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitor Expression Tests",
+        "fullTitle": "CountVisitor Expression Tests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a AST containing Literal Num Expression",
+            "fullTitle": "CountVisitor Expression Tests count nodes in a AST containing Literal Num Expression",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing Literal String Expression",
+            "fullTitle": "CountVisitor Expression Tests count nodes in a AST containing Literal String Expression",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing Numeric Plus Expression",
+            "fullTitle": "CountVisitor Expression Tests count nodes in a AST containing Numeric Plus Expression",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a AST containing String Plus Expression",
+            "fullTitle": "CountVisitor Expression Tests count nodes in a AST containing String Plus Expression",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 4,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitor nested AST",
+        "fullTitle": "CountVisitor nested AST",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a complex nested AST ",
+            "fullTitle": "CountVisitor nested AST count nodes in a complex nested AST ",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 1,
+        "fail": 0
+      },
+      {
+        "title": "StmtIteratorTests",
+        "fullTitle": "StmtIteratorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "iterator through the statements of a small AST",
+            "fullTitle": "StmtIteratorTests iterator through the statements of a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test iterator on uniterable AST nodes",
+            "fullTitle": "StmtIteratorTests test iterator on uniterable AST nodes",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 2,
+        "fail": 0
+      },
+      {
+        "title": "StmtIteratorTests Assignment Iterator",
+        "fullTitle": "StmtIteratorTests Assignment Iterator",
+        "suites": [],
+        "tests": [
+          {
+            "title": "iterator through the assignment with Plus Expressions/Sequnce/DeclStmts",
+            "fullTitle": "StmtIteratorTests Assignment Iterator iterator through the assignment with Plus Expressions/Sequnce/DeclStmts",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through the assignment with Var Expressions/Sequnce/DeclStmts",
+            "fullTitle": "StmtIteratorTests Assignment Iterator iterator through the assignment with Var Expressions/Sequnce/DeclStmts",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through the assignment with Literal Expressions/Sequnce/DeclStmts",
+            "fullTitle": "StmtIteratorTests Assignment Iterator iterator through the assignment with Literal Expressions/Sequnce/DeclStmts",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 3,
+        "fail": 0
+      },
+      {
+        "title": "TypeCheckVisitorTests",
+        "fullTitle": "TypeCheckVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check a big AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a big AST with both kinds of errors",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 2,
+        "fail": 0
+      },
+      {
+        "title": "TypeCheckVisitorTests for Duplicate Variables",
+        "fullTitle": "TypeCheckVisitorTests for Duplicate Variables",
+        "suites": [],
+        "tests": [
+          {
+            "title": "type-check no error",
+            "fullTitle": "TypeCheckVisitorTests for Duplicate Variables type-check no error",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check 2 Stmnts with Duplicate Variables",
+            "fullTitle": "TypeCheckVisitorTests for Duplicate Variables type-check 2 Stmnts with Duplicate Variables",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check 3 Stmnts with Duplicate Variables",
+            "fullTitle": "TypeCheckVisitorTests for Duplicate Variables type-check 3 Stmnts with Duplicate Variables",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check Duplicate Variables in different places",
+            "fullTitle": "TypeCheckVisitorTests for Duplicate Variables type-check Duplicate Variables in different places",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 4,
+        "fail": 0
+      },
+      {
+        "title": "TypeCheckVisitorTests for PlusExpression",
+        "fullTitle": "TypeCheckVisitorTests for PlusExpression",
+        "suites": [],
+        "tests": [
+          {
+            "title": "type-check no error",
+            "fullTitle": "TypeCheckVisitorTests for PlusExpression type-check no error",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check one Plus Epxression",
+            "fullTitle": "TypeCheckVisitorTests for PlusExpression type-check one Plus Epxression",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "type-check nested invalid and valid Plus Epxressions",
+            "fullTitle": "TypeCheckVisitorTests for PlusExpression type-check nested invalid and valid Plus Epxressions",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 3,
+        "fail": 0
+      }
+    ],
+    "tests": [],
+    "pass": 0,
+    "fail": 0
+  },
+  "stats": {
+    "suites": 10,
+    "tests": 32,
+    "passes": 32,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-22T13:49:59.584Z",
+    "end": "2020-10-22T13:49:59.622Z",
+    "duration": 38
+  }
+}
