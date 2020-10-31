@@ -1,7 +1,7 @@
 //server setup
 const port = 8080
 const express = require('express');
-var admZip = require('adm-zip');
+const admZip = require('adm-zip');
 
 //this cors is so I can access server from react app that runs on localhost:3000
 const cors = require('cors');
@@ -9,9 +9,6 @@ const app = express();
 const multer = require("multer");
 
 var storage = multer.diskStorage({
-    // destination: function (req, file, cb) {
-    //     cb(null, "/uploaded/")
-    // },
     filename: function (req, file, cb) {
         cb(null, file.originalname)
     }

@@ -2,23 +2,28 @@
   "name": "software-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "build": "tsc",
+    "dev": "ts-node app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "dependencies": {
     "acorn": "^8.0.4",
     "adm-zip": "^0.4.16",
-    "body-parser": "^1.19.0",
+    "browserify": "^13.1.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "multer": "^1.4.2",
     "nodemon": "^2.0.6",
-    "babel-preset-es2016": "^6.16.0",
-    "babelify": "^7.3.0",
-    "browserify": "^13.1.1"
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
   }
 }
