@@ -2,7 +2,7 @@
   "name": "software-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node app.ts",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "acorn": "^8.0.4",
+    "acorn-bfs": "^0.2.0",
     "acorn-walk": "^8.0.0",
     "adm-zip": "^0.4.16",
     "babel-plugin-replace-identifiers": "^0.1.1",
